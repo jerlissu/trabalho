@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="197dp"
+        android:layout_height="223dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="33dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="408dp"
+        android:layout_height="294dp"
+        android:text="segundo pesquisas lula é o favoritos nas eleições mas tudo indica que ele irá enfretar o candidato ciro gomes do pdt enquantos isso candidatos preferem nulo  tada a aquestão de perdas do brasil ajnuda a manter a pesquisa essa de fato é a primeira vez que ha tensões politica e muitas pessoas morendo devido a covid          21.12.21 autor:jerlisson e editor:luiz henrique maia"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tensões entre as eleições"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="editar"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

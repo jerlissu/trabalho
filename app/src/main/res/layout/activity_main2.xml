@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="237dp"
+        android:layout_height="201dp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="4dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logar "
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="se-insccrever"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="165dp"
+        android:layout_height="56dp"
+        android:text="Bem vindo"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="232dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

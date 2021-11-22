@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="208dp"
+        android:layout_height="151dp"
+        android:text="conheça jackie chan"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="221dp"
+        android:layout_height="186dp"
+        app:srcCompat="@android:drawable/star_big_on"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="405dp"
+        android:layout_height="334dp"
+        android:text="um dos  lutadoresde afrtes marciais bem famoso morou em hong kong  foi um ods atores de a hora do rush e ganhou um desenho que estreou durante a epoca da tv globilho e ainda estreia na pluto tv embora muitas criticas ao desenho devido aos fillers a ideia do desenho é bastante boa          21.11.21 autor jerlisson   editor: henrique maia"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="editar"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
